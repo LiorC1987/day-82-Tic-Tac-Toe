@@ -90,7 +90,7 @@ while play_again:
             legitimate_spot = False
             while not legitimate_spot:
                 try:
-                    player_two_play = int(input("Player 2, choose a spot to mark an X on this board:"))
+                    player_two_play = int(input("Player 2, choose a spot to mark an O on this board:"))
                     if blocks[player_two_play - 1] == "O" or blocks[player_two_play - 1] == "O":
                         print("this spot is already taken, choose another spot")
                     else:
